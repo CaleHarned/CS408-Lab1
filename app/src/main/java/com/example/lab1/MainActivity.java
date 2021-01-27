@@ -23,5 +23,11 @@ public class MainActivity extends AppCompatActivity {
         TextView t = (TextView) findViewById(R.id.outputField);
         t.setText(initialNumber);
     }
+    public void onClickDecrimentButton(View v) {
+        initialNum = initialNum - 1;
+        String initialNumber = ""+initialNum+"";
+        TextView t = (TextView) findViewById(R.id.outputField);
+        t.setText(initialNumber);
+    }
 
 }

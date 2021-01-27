@@ -29,5 +29,12 @@
             android:layout_height="wrap_content"
             android:onClick="onClickIncrimentButton"
             android:text="@string/increment" />
+
+        <Button
+            android:id="@+id/decrementInputButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onClickDecrimentButton"
+            android:text="@string/decrement" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
